@@ -1,9 +1,8 @@
 const builder =require('botbuilder');
 const restify =require('restify');
 var connector = new builder.ChatConnector({
-    appId: process.env.MicrosoftAppId,
-    appPassword: process.env.MicrosoftAppPassword,
-    openIdMetadata: process.env.BotOpenIdMetadata
+    appId: 2822b4a4-54f2-4b92-a09f-e62ab3d35b41,
+    appPassword: 2822b4a4-54f2-4b92-a09f-e62ab3d35b41,
 });
 
 // Listen for messages from users 
